@@ -7,15 +7,6 @@ import requests
 uri = "http://localhost:5000/"
 genius_key = "rCoFyb4ZLVz_BuuD1tIZLp9Io0FQ33-txnvo25KlDZHon9GmEEeNXl4-MVxREhkd"
 
-#cid ="6b3d7d7b52324366a650f2d43388ffe2"
-#secret ="7a71c94004194b24ac68509ceaebcdab"
-
-cid = "12a852e656ba4c6ca3c7d982246a85c3"
-secret = "4a8152794d674f04b9e9b678e72623f3"
-
-client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
-sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
-
 #insert the URI as a string into the function
 # def get_album_tracks(uri_info):
 #     uri = []
