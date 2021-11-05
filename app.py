@@ -1,12 +1,12 @@
 from flask import Flask, request, url_for, session, redirect
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials, SpotifyOAuth
-from secrets import *
-import csv, time, os
 import pandas as pd
+import spotipy
+from spotipy.oauth2 import SpotifyOAuth
+import time, os
+from .secrets import *
+from .lyricsScraping import *
+import json
 
-clientID = "6b3d7d7b52324366a650f2d43388ffe2"
-clientSecret = "7a71c94004194b24ac68509ceaebcdab"
 TOKEN_INFO = "token_info"
 
 app = Flask(__name__)
@@ -17,6 +17,7 @@ app.config['SESSION_COOKIE_NAME'] = 'Ayah Cookie'
 
 @app.route('/')
 def login():
+    os.remove('.cache')
     sp_oauth = create_spotify_oauth()
     auth_url = sp_oauth.get_authorize_url()
     return redirect(auth_url)
@@ -32,6 +33,15 @@ def redirectPage():
 
 @app.route('/getUserTracks')
 def getTracks():
+    j_file = getJSONdata()
+    df = get_album_tracks(j_file)
+    df2_metadata = get_track_info(df)
+    df1 = merge_frames(df, df2_metadata)
+    #return df1.to_dict()
+    #return df.to_dict()
+    return j_file
+
+def getJSONdata():
     try:
         token_info = get_token()
     except:
@@ -40,6 +50,7 @@ def getTracks():
 
     sp = spotipy.Spotify(auth=token_info['access_token'])
     return sp.current_user_recently_played(limit=50)
+    
 
 def get_token():
     token_info = session.get(TOKEN_INFO, None)
@@ -62,16 +73,5 @@ def create_spotify_oauth():
         show_dialog= True
     )
 
-# sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=clientID,
-#                                                              client_secret=clientSecret))
-
-# pd.read_json("spotify.json").to_excel("spotify.xlsx")
-
-# results = sp.search(q='weezer', limit=20)
-# for idx, track in enumerate(results['tracks']['items']):
-#     print(idx, track['name'])
-
-# for idx, track in enumerate(getTracks()['tracks']['items']):
-#     print(idx, track['name'])
 
 
