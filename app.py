@@ -17,6 +17,7 @@ app.config['SESSION_COOKIE_NAME'] = 'Ayah Cookie'
 @app.route('/')
 def login():
     os.remove('.cache')
+    os.remove('song_dataset.csv')
     sp_oauth = create_spotify_oauth()
     auth_url = sp_oauth.get_authorize_url()
     return redirect(auth_url)
@@ -38,8 +39,9 @@ def getTracks():
     df = get_album_tracks(j_file)
     df2_metadata = get_track_info(df)
     df1 = merge_frames(df, df2_metadata)
-    return df1.to_dict()
-    #return j_file
+    song_df = lyrics_onto_frame(df1, df1['artist'])
+    song_df.to_csv(r".\song_dataset.csv", index = False)
+    return "Recently Played songs for user has been successfully exported to song_dataset.csv"
 
 def getJSONdata():
     try:
