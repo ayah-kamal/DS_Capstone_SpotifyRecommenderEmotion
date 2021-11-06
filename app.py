@@ -1,11 +1,10 @@
 from flask import Flask, request, url_for, session, redirect
-import pandas as pd
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import time, os
 from .secrets import *
 from .lyricsScraping import *
-import json
+from .dataCollection import *
 
 TOKEN_INFO = "token_info"
 
@@ -34,12 +33,13 @@ def redirectPage():
 @app.route('/getUserTracks')
 def getTracks():
     j_file = getJSONdata()
+    # Create dataframe of track list with audio features
+    # using dataCollection.py import
     df = get_album_tracks(j_file)
     df2_metadata = get_track_info(df)
     df1 = merge_frames(df, df2_metadata)
-    #return df1.to_dict()
-    #return df.to_dict()
-    return j_file
+    return df1.to_dict()
+    #return j_file
 
 def getJSONdata():
     try:
@@ -50,7 +50,6 @@ def getJSONdata():
 
     sp = spotipy.Spotify(auth=token_info['access_token'])
     return sp.current_user_recently_played(limit=50)
-    
 
 def get_token():
     token_info = session.get(TOKEN_INFO, None)
