@@ -43,7 +43,6 @@ def getTracks():
     df1 = merge_frames(df, df2_metadata)
     song_df = lyrics_onto_frame(df1, df1['artist'])
     song_df.to_csv(r".\song_dataset.csv", index = False)
-    song_df.to_excel(r".\song_dataset.xlsx", index = False)
     return "Recently Played songs for user has been successfully exported to song_dataset.csv"
 
 def getJSONdata():
