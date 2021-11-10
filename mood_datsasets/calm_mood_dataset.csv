@@ -1,0 +1,210 @@
+artist,album,track,track_id,danceability,energy,key,loudness,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature,mood
+Tom Rosenthal,Z-Sides,Lights Are On,4IhTXiZLKATmwhMZIb1GQN,0.44,0.04,3,-16.887,0.0322,0.981,0.465,0.111,0.249,135.965,193749,4,Calm
+Maggie Rogers,Notes from the Archive: Recordings 2011-2016,New Song,3PUMPtOSeXSJsBvK43K96b,0.65,0.28,4,-7.442,0.0305,0.495,3.55e-06,0.106,0.103,119.939,382613,3,Calm
+Noah Kahan,Cape Elizabeth,Maine,3Z2anmIVG8b1GelyeFQdnP,0.533,0.24,6,-9.512,0.0424,0.729,0.0,0.223,0.265,175.486,232618,4,Calm
+Jordy Searcy,Dark in the City,Love & War in Your Twenties,4ZRrMMzxprxmGneblonNz7,0.736,0.525,2,-9.694,0.0296,0.22,0.00153,0.127,0.529,102.986,250547,4,Calm
+Noah Cyrus,July (feat. Leon Bridges),July (feat. Leon Bridges),3V0nnQhqvbE3JmiDdnzQFQ,0.708,0.211,9,-9.603,0.0424,0.853,0.0,0.131,0.362,72.5,152280,4,Calm
+The Head And The Heart,The Head and the Heart,Down in the Valley,0hgfbmstNlUnrNixEhx1VM,0.417,0.395,0,-11.416,0.029,0.505,0.0272,0.113,0.178,105.841,303653,4,Calm
+Lizzy McAlpine,Give Me A Minute,To the Mountains,2CK9xYMVdmJMPKZyArVbt4,0.461,0.147,4,-14.022,0.033,0.918,0.000638,0.0846,0.267,78.809,193800,1,Calm
+Phoebe Bridgers,Stranger in the Alps,Motion Sickness,6LxcPUqx6noURdA5qc4BAT,0.652,0.545,1,-9.021,0.0358,0.774,0.0428,0.0847,0.626,107.019,229760,4,Calm
+Trousdale,Wouldn't Come Back,Wouldn't Come Back,1zeQjPT367QcGrkpIXYjuW,0.602,0.234,11,-9.419,0.0334,0.635,2.54e-06,0.0987,0.307,124.964,219533,4,Calm
+Wild Rivers,Songs to Break Up To,Thinking 'Bout Love,3d3LHam2Lc5ADEyJxG3fXE,0.732,0.328,5,-8.13,0.0327,0.487,0.0,0.0677,0.385,141.789,199391,4,Calm
+Joy Oladokun,in defense of my own happiness,look up,0oEji7lz6paMOdk97XEK4Z,0.446,0.295,0,-9.711,0.0321,0.829,0.0,0.14,0.197,119.931,213933,3,Calm
+Caamp,"Fall, Fall, Fall","Fall, Fall, Fall",4MEhUxj35YRT7mqMaJgcWB,0.569,0.146,6,-12.568,0.046,0.905,0.00951,0.106,0.216,116.928,281180,3,Calm
+Harry Styles,Fine Line,Cherry,2IOFZdYYkFxEHVz1w34PoL,0.53,0.512,7,-9.261,0.0259,0.615,0.00453,0.129,0.411,95.946,259187,4,Calm
+Hozier,Hozier (Expanded Edition),Cherry Wine - Live,1C042FLYy7rP3MfnkOcnha,0.415,0.11,1,-14.901,0.0388,0.951,0.00236,0.0962,0.234,81.876,240147,4,Calm
+Maggie Rogers,Love You For A Long Time,Love You For A Long Time,6QTPacyXkZWG9FMwq6L1hJ,0.707,0.67,9,-6.137,0.0323,0.164,0.00283,0.109,0.822,112.993,223120,4,Calm
+The Paper Kites,Woodland - EP,Bloom - Bonus Track,41yIvlFgvGwxq8qTqAR7eG,0.592,0.416,1,-9.794,0.0246,0.882,0.000586,0.112,0.417,96.002,210080,4,Calm
+Handsome Ghost,Some Still Morning,Weeds,2wOQdQ3cXCPARPHwOF4UqZ,0.579,0.325,0,-9.835,0.0284,0.721,2.24e-06,0.403,0.428,79.985,253670,4,Calm
+Lorde,Stoned at the Nail Salon,Stoned at the Nail Salon,0WLVSnKqQBK4UPom1TESHK,0.466,0.113,2,-13.325,0.0414,0.947,7.53e-05,0.0986,0.104,125.369,266432,4,Calm
+Noah Kahan,Cape Elizabeth,Anyway,5FwlCxV2Q4xjTywLsD3Kxe,0.65,0.156,7,-10.686,0.0338,0.742,0.0,0.126,0.243,133.919,312146,4,Calm
+Taylor Swift,folklore,exile (feat. Bon Iver),4pvb0WLRcMtbPGmtejJJ6y,0.298,0.38,6,-8.426,0.0287,0.778,5.62e-05,0.11,0.152,75.602,285634,4,Calm
+Abby Cates,Roadtripsong,Roadtripsong,7bZP1hWx4jVnRUr0FgZ4nR,0.529,0.0759,2,-17.689,0.0331,0.656,0.0,0.156,0.353,139.683,221143,3,Calm
+The Lumineers,Walls,Walls,3UpEsDQyd6eyRQzgQdNyGo,0.609,0.44,10,-6.32,0.0265,0.692,0.0,0.0688,0.43,108.427,199119,4,Calm
+Novo Amor,Birthplace,State Lines,7CoMBpPTwQi2wPT0U0Nr9b,0.509,0.31,9,-10.623,0.0313,0.959,0.229,0.0963,0.151,137.474,208653,3,Calm
+The Head And The Heart,The Head and the Heart,Rivers and Roads,7d1GPc45c9wtmYxNSwLXTy,0.501,0.177,0,-9.795,0.0345,0.707,3.17e-05,0.0762,0.19,131.183,284000,3,Calm
+Big Red Machine,Latter Days (feat. Anaïs Mitchell),Latter Days (feat. Anaïs Mitchell),3fTucukFycdzQQR3gczZAU,0.706,0.329,0,-10.07,0.0286,0.734,0.0115,0.102,0.232,130.03,218427,4,Calm
+Matt Hartke,London's Song,London's Song,1Mk9ou2m6hsEZJYuNRJFpO,0.562,0.266,4,-14.852,0.0409,0.928,0.000626,0.0983,0.493,88.968,178573,4,Calm
+Lord Huron,Lonesome Dreams,Ends of the Earth,4yyg2J2uXOjCtCyT64984C,0.555,0.584,4,-8.667,0.0301,0.274,0.0228,0.254,0.41,120.965,284147,4,Calm
+Caamp,Caamp,Vagabond,3HAgxyWGeJtIVabS2mTREt,0.571,0.399,4,-11.919,0.0364,0.766,0.0146,0.0926,0.611,141.922,129464,4,Calm
+Henry Jamison,Still Life (feat. Joseph),Still Life (feat. Joseph),1Lp6ewfK7ABZWemResfRyK,0.522,0.541,4,-8.743,0.0356,0.0513,0.000201,0.0788,0.27,132.082,228867,4,Calm
+The Staves,Good Woman,Nothing’s Gonna Happen,4WM5HfHQZ0N4o8HDNwRmRk,0.36,0.209,2,-12.289,0.0322,0.77,5.1e-05,0.129,0.213,75.349,216747,4,Calm
+The Lumineers,Cleopatra,Sleep On The Floor,5MMZJtHOiH1RmQSSe3DJdg,0.389,0.431,7,-8.061,0.0344,0.249,0.0,0.13,0.275,142.14,211851,4,Calm
+Bendigo Fletcher,Sugar in the Creek,Sugar in the Creek,7ceIJcA4Scip0WlJwwUnTS,0.317,0.696,11,-7.844,0.0512,0.607,0.00086,0.108,0.68,144.95,251747,4,Calm
+Hollow Coves,Wanderlust,Coastline,2KCqAdd2ad0hpJc5ySoTE8,0.67,0.496,2,-11.23,0.0277,0.627,0.00325,0.0584,0.427,100.17,233973,4,Calm
+Big Red Machine,Phoenix (feat. Fleet Foxes & Anaïs Mitchell),Phoenix (feat. Fleet Foxes & Anaïs Mitchell),5fwabfmJtYmNbcNd2ISl3x,0.482,0.671,5,-7.135,0.0412,0.454,0.000159,0.0791,0.547,137.836,255533,4,Calm
+Birdtalker,Better Days,Better Days,02HJc2G0BfiJBJhet27Scm,0.536,0.286,2,-12.444,0.0287,0.41,0.00671,0.136,0.242,89.74,201627,4,Calm
+Novo Amor,Bathing Beach,Anchor,7qH9Z4dJEN0l9bidizW7fq,0.457,0.407,9,-11.475,0.0308,0.805,0.884,0.126,0.126,117.053,257533,4,Calm
+Sarah Kinsley,The King,The King,4M6XHrTc4RtdgKN9gzEAM6,0.631,0.67,6,-6.175,0.052,0.0776,0.112,0.086,0.746,108.973,206373,4,Calm
+Caiola,Only Real When Shared,Alaska,5p0WgCCVI5LnWaUEXv1OBl,0.462,0.417,3,-8.533,0.0342,0.86,0.00347,0.106,0.348,100.979,225379,4,Calm
+Caamp,Caamp,All the Debts I Owe,6255IIBwKySv6RYrOeHfQh,0.483,0.486,0,-11.062,0.0434,0.753,0.00479,0.134,0.466,92.048,193049,4,Calm
+Lizzy McAlpine,When The World Stopped Moving: The Live EP,Angelina,4F30FT7ic362rA5sUujirY,0.418,0.122,11,-16.5,0.0556,0.93,3.7e-05,0.109,0.214,169.11,225500,4,Calm
+The Lumineers,Cleopatra,Ophelia,3d8y0t70g7hw2FOWl9Z4Fm,0.664,0.573,5,-6.519,0.0277,0.613,0.000363,0.0857,0.566,76.023,160097,4,Calm
+Dustin Tebbutt,Resin,Resin,6AmrRS8slCMxGUZePjV6dH,0.259,0.373,1,-12.925,0.0275,0.895,0.181,0.118,0.196,83.295,203940,4,Calm
+Various Artists,The Twilight Saga: New Moon (Original Motion Picture Soundtrack),Rosyln,4k7x3QKrc3h3U0Viqk0uop,0.329,0.277,10,-13.111,0.0302,0.971,0.024,0.0971,0.121,159.719,289560,3,Calm
+Allison Ponthier,Faking My Own Death,Faking My Own Death,0GoTonjhYLPM7NVKqliTTt,0.383,0.419,11,-9.835,0.0564,0.801,0.000268,0.221,0.211,81.206,238829,4,Calm
+Uwade,The Man Who Sees Tomorrow / Lodarore,The Man Who Sees Tomorrow,3tML0isKJJ3DJUQKcm3L0e,0.257,0.213,11,-11.787,0.0364,0.77,0.0,0.363,0.209,55.309,211733,3,Calm
+Bon Iver,"For Emma, Forever Ago",Re: Stacks,2LthqyP0MLhGUBICwR1535,0.676,0.0812,2,-22.846,0.0398,0.979,0.416,0.118,0.314,125.053,401413,4,Calm
+Mt. Joy,Mt. Joy,Silver Lining,0i5QVxsK3IvEDbUjTA64Li,0.541,0.616,0,-6.53,0.028,0.00114,1.09e-06,0.151,0.203,144.218,198600,4,Calm
+Roo Panes,I Just Love You,I Just Love You,0q7kQr5gUO8SxzNfru6k9s,0.542,0.644,2,-9.358,0.0296,0.584,0.362,0.055,0.425,164.888,195453,4,Calm
+Courtney Marie Andrews,Old Flowers,If I Told,2Ckv1DTVTt5UPdnWutOO7h,0.283,0.221,10,-15.344,0.0423,0.841,0.000595,0.0975,0.299,80.413,298013,4,Calm
+Vance Joy,Nation of Two,Saturday Sun,2RiBogNRfulkNf7fVbPOrJ,0.637,0.864,8,-4.381,0.0468,0.484,0.0,0.222,0.706,99.995,214720,4,Calm
+Beta Radio,All Remains,Tongue Tied - Acoustic,0lltDjxNE19ciwRInP4qPX,0.429,0.278,7,-14.927,0.0299,0.845,0.374,0.127,0.377,154.086,185250,4,Calm
+Ryn Weaver,The Fool,Pierre,31c1V9xUONZYk78NE4Id8D,0.607,0.827,9,-4.282,0.0484,0.289,2.95e-06,0.718,0.552,100.062,202747,4,Calm
+Watchhouse,Watchhouse,New Star,5XCySQu79sw9DDCuAjdn2R,0.683,0.488,2,-8.733,0.0266,0.605,0.0554,0.13,0.424,113.387,185728,4,Calm
+Harrison Storm,Breathe Again (Acoustic),Breathe Again - Acoustic,4i7kl1EAd9zgYsJ2wcCD0M,0.651,0.433,10,-7.826,0.0362,0.631,0.0,0.146,0.182,123.027,198382,4,Calm
+Ocie Elliott,Slow Tide,Take Me Home,0nbQvHWnm5Wq25SFXpfQGp,0.735,0.234,6,-11.113,0.0284,0.907,0.00112,0.0998,0.21,109.837,181958,4,Calm
+Old Sea Brigade,Call Me When You Land,Call Me When You Land,4oRgpwXGPigjcEkp0mPgad,0.689,0.485,5,-10.157,0.0311,0.452,0.0512,0.432,0.567,116.004,287623,4,Calm
+Nathaniel Rateliff,And It’s Still Alright,And It's Still Alright,2tRxHjEkdgGMv9kZbOyqOH,0.521,0.492,3,-9.127,0.0297,0.689,0.619,0.118,0.301,77.585,235747,4,Calm
+Donovan Woods,"Hard Settle, Ain't Troubled","Portland, Maine",12niARgkwxGsklcEwh6GlG,0.606,0.349,4,-13.967,0.0319,0.764,0.306,0.112,0.156,80.071,203870,4,Calm
+Foxwarren,Foxwarren,Sunset Canyon,4YvOkz9IrldHkWiDZremSr,0.672,0.334,1,-10.194,0.0322,0.304,0.0637,0.317,0.434,110.205,260090,4,Calm
+Tall Heights,Hear It Again,Hear It Again,4CLPOmWL4IPkLa7vC0RFQU,0.521,0.691,6,-7.936,0.0339,0.0113,0.00107,0.0927,0.53,89.974,233533,4,Calm
+Leith Ross,I'd Have to Think About It,I'd Have to Think About It,50lUr1G0TYol01m2RlqPzZ,0.508,0.213,5,-13.998,0.0364,0.829,1.11e-05,0.123,0.512,100.764,150141,4,Calm
+Maggie Rogers,Heard It In A Past Life,Alaska,4HfLQJtVT1KiX1eVedDyTm,0.847,0.386,9,-10.668,0.0507,0.411,0.00176,0.108,0.178,104.001,188000,4,Calm
+Angus & Julia Stone,Snow,Chateau,62oCnK99vT8HOgwPsvXuiM,0.662,0.585,5,-11.255,0.0367,0.658,0.881,0.102,0.606,129.979,273533,4,Calm
+Noah Gundersen,A Pillar of Salt,Sleepless in Seattle,1NwqQ7E9NfQ4GW2a9LDMNI,0.308,0.194,11,-12.421,0.0305,0.679,0.00272,0.101,0.326,90.343,240813,4,Calm
+Gregory Alan Isakov,The Weatherman,The Universe,5SOV1dyQQJx98X4yY17bCI,0.426,0.243,1,-13.477,0.036,0.815,0.112,0.134,0.215,125.653,256600,4,Calm
+Andrew Belle,Nightshade,Spectrum,5pEmeoMUW38w1oU3kPelvR,0.539,0.717,3,-7.385,0.031,0.000298,0.111,0.125,0.212,117.973,265507,4,Calm
+Aisha Badru,The Way Back Home,The Way Back Home,52Xwn8r3KLcwgHO0wyDNbC,0.47,0.329,2,-16.57,0.0382,0.685,0.000183,0.085,0.102,82.148,214361,4,Calm
+Clean Cut Kid,Mother’s Milk,"Get Born, Grow up and Move Away",6kzo6FPHeAiJ9Fu0ep6Vyh,0.549,0.483,10,-12.556,0.0406,0.702,0.0195,0.19,0.233,79.121,142453,3,Calm
+Christian Lee Hutson,Beginners,Northsiders,4EPLcAKK32fBbMi8yu4aSd,0.438,0.281,9,-14.448,0.035,0.657,0.000305,0.109,0.377,137.398,223507,3,Calm
+The Milk Carton Kids,The Only Ones,I'll Be Gone,2z4NCsQxVucYfAeUU1ljE2,0.593,0.447,7,-10.497,0.0325,0.862,8.78e-05,0.116,0.195,114.235,144947,4,Calm
+gigi,Sometimes (Backwood),Sometimes (Backwood),5ysFFsqJFcsX8Rez67j2tv,0.41,0.174,3,-11.405,0.0328,0.767,0.00197,0.114,0.0694,105.292,153000,4,Calm
+Lizzy McAlpine,doomsday,doomsday,27KG1LszbO6bBHA0tPgeuW,0.409,0.266,1,-9.63,0.0333,0.584,0.0,0.103,0.119,133.566,268433,3,Calm
+Lord Huron,Strange Trails,The Night We Met,0QZ5yyl6B6utIWkxeBDxQN,0.545,0.366,2,-9.51,0.0378,0.969,0.267,0.641,0.1,86.997,208212,3,Calm
+Alex G,Race,Gnaw,4KwttC1ZokLqillyhJgSe8,0.583,0.623,9,-8.495,0.0275,0.605,0.699,0.115,0.301,99.024,201789,4,Calm
+Aoife O'Donovan,Phoenix,Phoenix,2xtgvbuwqBgjI89UmCHApY,0.436,0.496,0,-13.45,0.0336,0.465,0.00341,0.0808,0.682,86.476,210196,4,Calm
+Ondara,Tales Of America,Lebanon,2FYMVOK6wtkysaKuNWUfk9,0.819,0.143,0,-10.711,0.0404,0.564,3.15e-05,0.111,0.486,109.24,206880,4,Calm
+Ásgeir,The Sky Is Painted Gray Today,The Sky Is Painted Gray Today,6IMK8QiJ4ehdOGNGmIXUgA,0.522,0.192,10,-15.844,0.0337,0.897,0.000936,0.109,0.331,133.47,221682,3,Calm
+Lucy Dacus,Going Going Gone (Edit),Going Going Gone - Edit,60IxJQA2o7CJ5GFO7DTd9T,0.693,0.196,11,-12.253,0.0352,0.955,0.0627,0.124,0.568,114.227,167812,4,Calm
+Adrianne Lenker,songs,anything,4PwWESSlTwzvw9B7bmtTLS,0.412,0.289,3,-12.953,0.0407,0.779,2.36e-05,0.0883,0.533,83.653,202047,4,Calm
+Fleetwood Mac,Rumours (Super Deluxe),Dreams - 2004 Remaster,0ofHAoxe9vBkTCp2UQIavz,0.828,0.492,0,-9.744,0.0276,0.0644,0.00428,0.128,0.789,120.151,257800,4,Calm
+JOSEPH,Honest,Honest,5a96KdnfSUrqIURvskDO5j,0.415,0.231,10,-9.905,0.0292,0.791,0.00248,0.177,0.256,105.64,162566,4,Calm
+SYML,Where's My Love,Where's My Love - Acoustic,1eKvw144NYPlDjR0wQoGLW,0.554,0.225,3,-11.324,0.0281,0.892,0.0321,0.107,0.221,104.007,239880,4,Calm
+Bonny Light Horseman,Bonny Light Horseman,Mountain Rain,36ZiMWFlFhIPwpgC2kA1Yj,0.571,0.334,2,-9.437,0.065,0.848,0.0247,0.0521,0.553,78.921,159885,4,Calm
+Vancouver Sleep Clinic,The Wire,The Wire,2fvgn1xCyf0VQ5o33ZCoc6,0.382,0.182,7,-12.856,0.0306,0.821,0.000399,0.0929,0.129,81.293,180440,4,Calm
+Gone Gone Beyond,2030,Coast,53l8hswqklbWd7XXqDEMtq,0.76,0.439,5,-12.218,0.0336,0.712,0.000358,0.0945,0.334,102.008,209712,4,Calm
+The Mountain Goats,Tallahassee,No Children,5cxnSTLzGD1t9xcdmJYFVB,0.607,0.411,1,-7.566,0.0414,0.603,0.000671,0.103,0.412,84.94,168307,4,Calm
+Waxahatchee,Saint Cloud +3,Light of a Clear Blue Morning,5slPetmTwOHfqpEFFDMzyn,0.665,0.311,7,-9.886,0.0292,0.799,0.0,0.103,0.421,118.005,278457,4,Calm
+Novo Amor,Birthplace,Repeat Until Death,5PzWVmfzu7rePAuFkxPQf0,0.233,0.15,1,-11.736,0.0336,0.982,0.36,0.154,0.0875,143.887,234080,3,Calm
+Lana Del Rey,Chemtrails Over The Country Club,Chemtrails Over The Country Club,7bPWdJgx8vek7S5i5yAtvG,0.334,0.276,4,-13.125,0.0643,0.877,0.000249,0.113,0.429,201.025,271177,3,Calm
+Jeremy Zucker,love is not dying,"oh, mexico",3dT28suh6dzuW7qF79Nf4F,0.558,0.35,8,-13.244,0.0839,0.874,0.246,0.378,0.376,78.045,184480,4,Calm
+Lionlimb,Ultraviolet,Ultraviolet,0atoPGT6rAGWcMnaPUuCtn,0.514,0.509,5,-10.253,0.0277,0.194,0.0252,0.104,0.484,142.072,230431,4,Calm
+Vance Joy,Dream Your Life Away (Special Edition),Fire and the Flood,6liNJDyWJjyHAgDnAX95bw,0.596,0.827,5,-4.402,0.0372,0.0242,0.0,0.0958,0.329,115.034,249382,4,Calm
+Angelo De Augustine,Tomb,"You Needed Love, I Needed You",61E4DgklZb36Oxn8el9NNy,0.54,0.18,2,-13.982,0.0422,0.928,0.00498,0.109,0.535,88.985,205657,4,Calm
+Patrick Watson,A Mermaid in Lisbon,A Mermaid in Lisbon,6A8BvPrNOo5l1j3c80KhAb,0.428,0.447,6,-10.755,0.0377,0.706,0.00393,0.195,0.532,79.222,208649,4,Calm
+Milo Greene,Milo Greene,1957,08cXy6KUizaAelYXtcew3w,0.388,0.595,1,-9.799,0.0325,0.663,5.58e-05,0.178,0.596,190.043,204213,4,Calm
+Bibio,Sleep On The Wing,Sleep On The Wing,6A6ELFKSmU4Sgnfem0SyRd,0.38,0.333,9,-11.507,0.0284,0.8,0.891,0.134,0.358,79.891,210040,3,Calm
+Laufey,Love Flew Away,Love Flew Away,5uAtnvrLOUDcTp9sfpxaQt,0.411,0.361,5,-8.466,0.0302,0.92,2.36e-06,0.102,0.315,86.325,147347,4,Calm
+Bon Iver,"For Emma, Forever Ago",Skinny Love,2cbic3TiUENlJX91y67ARR,0.593,0.263,4,-14.029,0.0567,0.844,5.36e-06,0.127,0.109,76.379,238520,4,Calm
+Fenne Lily,BREECH (acoustic),Hypochondriac - acoustic,1voad61aPwZdcwGy4UV3dl,0.506,0.107,3,-16.107,0.0404,0.94,0.000216,0.111,0.408,132.535,210421,4,Calm
+mehro,SKY ON FIRE,chance with you,7qFtcljd0PZ5kJZos70YjT,0.562,0.494,4,-8.13,0.0278,0.864,0.0259,0.153,0.383,144.104,215516,4,Calm
+Anthony Hamilton,Love Is The New Black,Superstar,0PKcHf6NgPitUVFwzKnz3c,0.403,0.493,6,-8.037,0.0339,0.456,1.13e-05,0.0736,0.14,113.952,395493,4,Calm
+Yebba,Distance,Distance,08W9Md8HXeJrx3omSQE2NF,0.601,0.511,0,-7.297,0.038,0.68,0.252,0.0732,0.469,139.955,255800,4,Calm
+Emily King,See Me,See Me,0vtDLpnv8weWM33Wn29rXo,0.501,0.199,6,-13.768,0.0343,0.905,0.000431,0.108,0.371,167.851,210373,4,Calm
+PJ Morton,The Piano Album,How Deep Is Your Love - Acoustic Version,1iovqTYo2kvTWRGhRQPDPV,0.298,0.188,6,-13.395,0.0421,0.935,0.0,0.696,0.34,185.805,244621,4,Calm
+Tweet,Neva Gonna Break My Heart Again,Neva Gonna Break My Heart Again,7c9d8GYjOixUL7I3o2BJn0,0.236,0.715,8,-7.85,0.212,0.055,0.0145,0.372,0.209,189.688,318521,4,Calm
+Gregory Porter,All Rise (Deluxe),Everything You Touch Is Gold,38eB2BbrR7PLK7zyQYgBDx,0.637,0.446,4,-7.767,0.0649,0.336,1.82e-05,0.183,0.423,75.007,363240,4,Calm
+Samm Henshaw,Grow,Grow,3jPd7hIM0feCje8ZbVu6en,0.672,0.672,9,-7.693,0.0847,0.103,0.000489,0.0823,0.807,85.012,180523,4,Calm
+Lucky Daye,Table For Two,How Much Can A Heart Take (feat. Yebba),5SFssNXGjeOxdAnECfgttm,0.661,0.693,6,-6.553,0.196,0.324,0.0336,0.0959,0.613,82.058,302240,4,Calm
+Justin Nozuka,"then, now & again",Break Me,03XDjkWj7ME04UpDyAjg8Q,0.566,0.561,11,-9.027,0.0472,0.229,0.00975,0.198,0.56,81.57,252786,4,Calm
+Nia Sultana,Ambience,Ambience,1o2DoGaoIMHOqkB5XwCsrt,0.531,0.556,0,-8.382,0.364,0.136,0.0,0.0821,0.818,80.039,168000,4,Calm
+BJ The Chicago Kid,Bring it on Home to Me (feat. Charlie Bereal),Bring it on Home to Me (feat. Charlie Bereal),578ziqCj8ieyz7NLrZ31km,0.338,0.369,10,-7.082,0.0332,0.806,1.36e-06,0.158,0.567,173.761,201600,3,Calm
+Donny Hathaway,Never My Love: The Anthology,"Love, Love, Love",3Tc6dHggtSaZqlKRhzkeub,0.497,0.636,8,-8.71,0.0723,0.683,0.0,0.228,0.69,93.777,204056,4,Calm
+Tess Henley,Same Girl,Same Girl,7oKmQiRPMWLrhp1vhlmTRn,0.61,0.741,2,-5.941,0.0747,0.284,6.04e-05,0.105,0.67,78.024,182751,4,Calm
+Leon Bridges,All About You,All About You,2uddLj27GIDBIdwRuIomE4,0.746,0.454,9,-8.79,0.0583,0.122,1.52e-05,0.296,0.268,121.921,180095,4,Calm
+KIRBY,Can We Be Friends?,Can We Be Friends?,0dQ5ByUHcI2ngYfUhCqNLP,0.618,0.383,9,-8.519,0.0697,0.387,1.55e-05,0.0987,0.297,65.525,176826,4,Calm
+Robert Glasper,Better Than I Imagined (Feat. H.E.R. & Meshell Ndegeocello),Better Than I Imagined (Feat. H.E.R. & Meshell Ndegeocello),04vYVsWbhkQaTLx2kgVNks,0.646,0.483,10,-9.147,0.0631,0.0252,0.0161,0.0887,0.407,143.866,299367,4,Calm
+Otis Kane,Every Word (feat. Krysten Simone),Every Word (feat. Krysten Simone),5NyONMWLkVKu8Mcgjn20aq,0.613,0.436,9,-10.115,0.0445,0.655,0.0,0.35,0.413,94.999,167791,4,Calm
+Aiyana-Lee,Rich Kids,Rich Kids,7n7ZuzfTUJEvo7cZJVvCwd,0.67,0.747,5,-6.531,0.0752,0.339,2.14e-06,0.173,0.527,120.083,200840,4,Calm
+Sinead Harnett,Take Me Away (feat. EARTHGANG),Take Me Away (feat. EARTHGANG),0jdit0IB5OJbDmPRqadZbs,0.664,0.543,1,-9.441,0.249,0.22,1.86e-06,0.2,0.31,157.961,172493,4,Calm
+Amber Mark,What It Is,What It Is,2CJfHjywgcczXQi6Dosw8Q,0.7,0.55,11,-5.871,0.104,0.16,0.000119,0.0644,0.854,72.997,325106,4,Calm
+Justin Nozuka,summer night o8,summer night o8,2yrhCmYZKJHpOFk8OW2rjU,0.5,0.431,11,-7.982,0.0287,0.719,0.000111,0.348,0.247,121.804,203158,4,Calm
+Ms. Lauryn Hill,The Miseducation of Lauryn Hill,Tell Him,7iCs98iS5n6KCI4q3H7zp9,0.655,0.647,1,-9.465,0.0903,0.19,0.00877,0.0412,0.931,80.077,280760,4,Calm
+Terrace Martin,"People Get Ready (From ""I Can't Breathe / Music For the Movement"")","People Get Ready - From ""I Can't Breathe / Music For the Movement""",3LERAXOWvNVreOnYySWU7U,0.715,0.529,2,-8.272,0.0485,0.204,0.159,0.0679,0.37,89.947,214549,4,Calm
+Tiana Major9,"Collide (From ""Queen & Slim: The Soundtrack"")","Collide - From ""Queen & Slim: The Soundtrack""",1mEO3xiJqEWXYIdZalDzHR,0.55,0.666,5,-6.089,0.0656,0.308,0.00763,0.185,0.423,147.828,205453,4,Calm
+Cleo Sol,Mother,Promises,6aQ7nlAEOhhRnsHi6eY0zT,0.797,0.266,1,-13.758,0.0415,0.289,0.0368,0.0969,0.683,92.011,264827,4,Calm
+Skip Marley,Slow Down (Acoustic),Slow Down - Acoustic,3ugCSRkkewHctDELil9Ixq,0.772,0.466,11,-11.148,0.114,0.496,0.0143,0.0836,0.57,93.01,251920,4,Calm
+JON VINYL,Addicted (Acoustic),Addicted (Acoustic),7HQc8ITNpm2NaIdLcKLDAY,0.518,0.287,5,-13.694,0.0445,0.594,0.000162,0.107,0.104,167.446,185130,4,Calm
+SiR,Footsteps in the Dark Pts. 1 & 2,Footsteps in the Dark Pts. 1 & 2,6ZrEsTv8IYRg0U0hUoo2j1,0.728,0.543,6,-7.64,0.088,0.144,0.00121,0.0408,0.718,161.975,317992,4,Calm
+DIXSON,DARLING,DARLING,5rrTie8d13kxtK8S6JOgyQ,0.653,0.818,0,-5.98,0.0684,0.188,0.00104,0.359,0.47,77.469,218704,4,Calm
+Andra Day,"Tigress & Tweed (Music from the Motion Picture ""The United States vs. Billie Holiday"")","Tigress & Tweed (Music from the Motion Picture ""The United States vs. Billie Holiday"")",72PM6IPh11h6akXKzMJs3q,0.727,0.531,8,-5.756,0.0446,0.563,0.00486,0.108,0.345,84.996,191482,4,Calm
+Ledisi,Anything For You,Anything For You,3buWaZh2ajXTWsdp8XTBKk,0.575,0.401,7,-8.012,0.164,0.611,0.0,0.113,0.332,133.531,256542,3,Calm
+Mayer Hawthorne,Only You,Only You,4AvOXTQ2semU5FAmtl8vtk,0.692,0.827,5,-2.604,0.0331,0.136,0.000563,0.0761,0.628,84.931,194072,4,Calm
+Yebba,Louie Bag (feat. Smino),Louie Bag (feat. Smino),01foHKHazVkkbW9hcAY2X4,0.72,0.608,1,-8.143,0.0962,0.589,0.118,0.116,0.66,141.036,227757,4,Calm
+Tobe Nwigwe,"Wake Up Everybody (From “Black History Always / Music For the Movement Vol. 2"")","Wake Up Everybody - From “Black History Always / Music For the Movement Vol. 2""",0SXc07eEULCarnpq6pSrPD,0.458,0.441,6,-10.816,0.0743,0.291,0.0,0.114,0.366,93.728,227234,4,Calm
+Lianne La Havas,Bittersweet,Bittersweet,03Qlgtvz9ux6lmzlv40BEZ,0.578,0.41,5,-7.555,0.0322,0.346,0.000182,0.219,0.313,137.908,236640,4,Calm
+Jacob Banks,Like You'll Never See Me Again,Like You'll Never See Me Again,0KQ6GRR5qKY3XrdsEHU5hT,0.588,0.244,8,-10.455,0.0793,0.733,0.0,0.0698,0.331,117.002,238033,4,Calm
+Jacob Collier,Running Outta Love (feat. Tori Kelly),Running Outta Love (feat. Tori Kelly),5jYF7Xmvmn7sNjtuPXaXfQ,0.704,0.404,4,-8.507,0.405,0.601,0.0,0.208,0.606,68.076,265587,4,Calm
+Victoria Monét,Coastin’,Coastin’,1IjeGPU5hqHlJpm00zObN7,0.807,0.481,8,-7.362,0.0713,0.0264,1.28e-06,0.112,0.748,91.005,175319,4,Calm
+Alex Isley,Good & Plenty,Good & Plenty,1VAKnb1btGrQXcVZVSRkPe,0.658,0.619,9,-7.316,0.0772,0.788,0.0667,0.0951,0.354,136.077,204706,4,Calm
+Lonr.,Make the Most (feat. H.E.R.),Make the Most (feat. H.E.R.),5NWgHc5T5HlG0Nz9FgmZT1,0.592,0.693,1,-6.918,0.359,0.366,0.0,0.0807,0.837,78.123,213851,4,Calm
+Ledisi,Ledisi Sings Nina,My Baby Just Cares for Me,63GvtdKbAbi2feQxp0DBpA,0.535,0.363,0,-8.101,0.0412,0.688,6.13e-05,0.0852,0.692,122.896,219437,4,Calm
+Kindred The Family Soul,The Best Things,The Best Things,2IebZ0AjurvrRGdxnnL2oI,0.705,0.562,11,-8.065,0.0529,0.0838,0.0,0.152,0.28,88.041,196608,4,Calm
+Maeta,Habits,Bitch Don't Be Mad,24WhLBcWByvFMrt8NNQ0ax,0.559,0.593,4,-5.443,0.294,0.633,0.0,0.0463,0.585,70.987,185199,4,Calm
+Eryn Allen Kane,Fragile,Fragile,5nwDAjkr2u2iVvjdeLockj,0.518,0.317,5,-7.595,0.0287,0.711,0.000726,0.171,0.227,131.495,242921,3,Calm
+Andra Day,"All of Me (Music from the Motion Picture ""The United States vs. Billie Holiday"")","All of Me (Music from the Motion Picture ""The United States vs. Billie Holiday"")",4vYc0t7Ymz1LQoN7X3okfX,0.539,0.293,2,-10.888,0.0284,0.556,0.000436,0.371,0.321,94.093,215852,4,Calm
+Various Artists,One Night In Miami... (Original Motion Picture Soundtrack),A Change Is Gonna Come,6cFjFN3jw2IoZqY3GO27s6,0.305,0.376,10,-7.689,0.0377,0.569,0.0,0.367,0.424,171.783,181760,3,Calm
+D.Folks,The Truth,The Truth,0BvetzkxZsWj6hgSaHtTRd,0.491,0.473,8,-8.596,0.142,0.761,2.8e-06,0.138,0.451,91.509,199790,4,Calm
+India Shawn,DON'T PLAY WITH MY HEART,DON'T PLAY WITH MY HEART,6pJhTkXKlGR3WZI7Mqbeem,0.704,0.524,0,-6.418,0.0288,0.00126,0.0152,0.114,0.517,100.003,219352,4,Calm
+Louis York,Don't You Forget,Don't You Forget,6QafQW90SRQSC3ZTFg4pGt,0.619,0.765,7,-6.08,0.0339,0.0242,4.39e-06,0.16,0.842,146.025,318667,4,Calm
+Joy Crookes,Skin,When You Were Mine,3zSwFE91EdwhEwS6vnJohB,0.369,0.829,10,-3.81,0.0789,0.0684,0.0991,0.343,0.63,102.175,203484,4,Calm
+Sufjan Stevens,Mystery of Love,Mystery of Love,5GbVzc6Ex5LYlLJqzRQhuy,0.365,0.273,4,-16.526,0.038,0.94,0.431,0.109,0.238,132.285,248960,5,Calm
+flora cash,You're Somebody Else,You're Somebody Else,0pdKRp2sUthTPe7RLWpPqQ,0.713,0.452,1,-9.638,0.0295,0.841,0.0038,0.105,0.235,102.963,218883,4,Calm
+Ed Sheeran,x (Wembley Edition),Thinking out Loud,0k4nrrCsMr0Tao5WvQ8Osq,0.781,0.445,2,-6.061,0.0295,0.474,0.0,0.184,0.591,78.998,281560,4,Calm
+Ed Sheeran,÷ (Deluxe),Perfect,0tgVpDi06FyKpA1z0VMD4v,0.599,0.448,8,-6.312,0.0232,0.163,0.0,0.106,0.168,95.05,263400,3,Calm
+Motopony,Motopony,Wait for Me,5SHOb5hvMDzmIRfDhwBoq5,0.619,0.577,6,-9.754,0.0342,0.239,0.779,0.122,0.665,159.844,289200,4,Calm
+James Hersey,Coming Over (filous Remix),Coming Over - filous Remix,0uIDxM4fdk9zHQzbhr5Jgq,0.791,0.493,8,-11.077,0.0459,0.487,0.00517,0.0996,0.309,109.999,198545,4,Calm
+The 1975,"I like it when you sleep, for you are so beautiful yet so unaware of it",Somebody Else,4m0q0xQ2BNl9SCAGKyfiGZ,0.618,0.793,0,-5.711,0.0601,0.204,0.0154,0.126,0.459,101.015,347526,4,Calm
+Oceans Ahead,2 good (rework),2 good (rework),5O5Y7fYYqSRLKQwW8MMYyE,0.692,0.449,2,-7.259,0.0345,0.456,0.0,0.376,0.212,107.037,169756,4,Calm
+Clairo,4EVER,4EVER,5mIOsPuQdXchVY0jB5NO9Q,0.75,0.585,9,-7.576,0.0285,0.049,0.00552,0.155,0.584,102.331,159595,4,Calm
+The National,Trouble Will Find Me,I Need My Girl,7rbCL7W893Zonbfnevku5s,0.523,0.438,0,-11.49,0.0356,0.867,0.0723,0.123,0.106,126.028,245240,4,Calm
+James Arthur,Back from the Edge,Say You Won't Let Go,5uCax9HTNlzGybIStD3vDh,0.358,0.557,10,-7.398,0.059,0.695,0.0,0.0902,0.494,85.043,211467,4,Calm
+Ed Sheeran,x (Wembley Edition),Photograph,3FSPaBp49Clqq2p4zc9dbA,0.614,0.379,4,-10.48,0.0476,0.607,0.000464,0.0986,0.201,107.989,258987,4,Calm
+blackbear,me & ur ghost,me & ur ghost,4yJiXq86uM56uIfIZgE440,0.755,0.631,7,-6.128,0.0261,0.0638,0.0,0.0929,0.881,100.026,200400,4,Calm
+Big Wild,Superdream,6's to 9's (feat. Rationale),4DAaQ5InUO23d8yNRbB0Yj,0.714,0.663,8,-5.799,0.0694,0.145,0.0,0.264,0.64,95.497,206073,4,Calm
+Shoffy,Cool Again,Cool Again,7tDqtZnEQcgAE92mEMtgnF,0.774,0.45,11,-6.86,0.0896,0.443,3.28e-05,0.127,0.648,90.055,191935,4,Calm
+Oceans Ahead,Falling,Falling,5lqyq2BhSjFZUp8bTsJBlx,0.652,0.559,4,-5.683,0.104,0.38,1.27e-06,0.131,0.165,83.914,166211,4,Calm
+John Mayer,Paradise Valley,Who You Love (feat. Katy Perry),7IByJvSqRFltGyiiIiL4wn,0.694,0.351,9,-10.92,0.0382,0.813,0.00165,0.097,0.691,145.907,249933,4,Calm
+Jeremy Zucker,better off (filous Remix),better off - filous remix,3PMsgFdVtCeTgjzE8X9TTs,0.782,0.564,8,-7.752,0.226,0.164,0.00689,0.182,0.448,101.058,176347,4,Calm
+The Weeknd,After Hours,Save Your Tears,5QO79kh1waicV47BqGRL3g,0.68,0.826,0,-5.487,0.0309,0.0212,1.24e-05,0.543,0.644,118.051,215627,4,Calm
+Oceans Ahead,The Way,The Way,4gxQjCynwaber3oYIQ5TNr,0.787,0.634,9,-8.357,0.0326,0.323,0.402,0.231,0.21,118.024,182017,4,Calm
+Flo Grell,Out of My Mind,Give Me Up,3lDtTxoaXJnjSdaAk4mz8d,0.762,0.738,11,-6.121,0.11,0.314,1.51e-05,0.0932,0.797,100.999,200204,4,Calm
+Jeremy Zucker,"summer,",comethru,18uwL0vNUanqZH0ro2QcOP,0.795,0.178,0,-11.991,0.0574,0.607,0.0,0.623,0.608,93.982,181613,4,Calm
+Quinn XCII,Stacy,Stacy,1pyGo7knT3LE2I1FJIrwdX,0.761,0.551,8,-7.14,0.037,0.0889,0.0,0.0971,0.478,104.935,168893,4,Calm
+Oceans Ahead,Traffic Lights,Traffic Lights,4Wmi9YUyrXpHrI7IzpxmDk,0.939,0.842,1,-4.112,0.119,0.217,4.1e-06,0.161,0.536,116.063,156983,4,Calm
+Flo Grell,summereyes,summereyes,0R2wYHwZefTLoe3ILVLRih,0.793,0.666,0,-7.743,0.287,0.241,9.36e-06,0.135,0.534,105.053,160000,4,Calm
+Jeremy Zucker,not ur friend,not ur friend,5T9S5x5hEOvgGKWysm683a,0.802,0.272,4,-10.563,0.412,0.309,0.0,0.403,0.669,68.969,174520,4,Calm
+Jeremy Zucker,glisten,all the kids are depressed,75ls0gurX68lUmMjE7QcsE,0.773,0.437,9,-8.281,0.0963,0.836,2.42e-05,0.544,0.707,103.861,169973,4,Calm
+Oceans Ahead,Down,Down,2LJNrBVuCNjU0qoSYZNyTU,0.835,0.407,11,-13.217,0.0442,0.53,0.0681,0.178,0.331,109.987,171240,4,Calm
+Soko,I Thought I Was An Alien,We Might Be Dead By Tomorrow,49A10weBfgwg4TUM3My7iv,0.391,0.152,7,-16.558,0.0391,0.966,0.00197,0.119,0.0974,143.508,161413,4,Calm
+Chelsea Cutler,Sleeping With Roses,The Reason,3TgPhPv7z0D4pQhH8iKmDW,0.654,0.606,2,-8.576,0.0717,0.0991,5.57e-05,0.31,0.358,90.058,184667,4,Calm
+Flo Grell,Out of My Mind,Nowhere,3HHaVZ9jO1ZmUY53kLnoe2,0.729,0.731,11,-5.739,0.0879,0.431,1.09e-06,0.468,0.801,106.011,199248,4,Calm
+Ruel,Younger,Younger,2qXicQG06oT0ijKBznpgQv,0.745,0.477,11,-7.706,0.088,0.202,0.0,0.12,0.454,136.055,222320,4,Calm
+Oceans Ahead,Tongue Tied,Tongue Tied,0mdYQcdcbqHZWfjHMFlTO2,0.79,0.554,1,-6.933,0.0394,0.0545,0.0,0.231,0.294,113.015,159007,4,Calm
+Whethan,"Life of a Wallflower, Vol. 1",Good Nights (feat. Mascolo),08Kj0lvbsqAxzeUOBYZRL6,0.849,0.483,6,-7.114,0.291,0.443,0.000141,0.0786,0.282,101.015,165618,4,Calm
+Oceans Ahead,2 Good,2 Good,0V45nGnVyrEjB6ixCndY4O,0.574,0.446,2,-5.884,0.117,0.653,0.0,0.438,0.355,106.038,163714,4,Calm
+Mitch James,Mitch James - Deluxe Edition,Bright Blue Skies,5zxwumO0laRosoeOvbVSvc,0.799,0.373,7,-8.999,0.0558,0.259,0.0,0.166,0.534,98.035,182907,4,Calm
+LANY,Malibu Nights,I Don't Wanna Love You Anymore,7ArrTJ1LwcGAlEO65LUQ7i,0.702,0.623,0,-8.36,0.0417,0.322,0.0,0.0858,0.503,104.974,201198,4,Calm
+Quinn XCII,The Story of Us,Flare Guns,7cM9Kqto11iJpY2RwgVJSq,0.812,0.472,1,-6.806,0.0603,0.26,0.0,0.285,0.457,92.951,240013,4,Calm
+Christian French,love ride,love ride,3bjLCKsBNSFyx6Gfsb7X4h,0.55,0.58,4,-7.687,0.0784,0.206,1.02e-06,0.119,0.484,82.27,234192,4,Calm
+Oceans Ahead,Discover,Discover,2kwdw95fOD1MTkwlokYMxc,0.728,0.692,6,-6.93,0.0341,0.32,0.0216,0.0873,0.271,120.052,194785,4,Calm
+Lauv,I met you when I was 18. (the playlist),Never Not,4fFfyouye6vrX9o9z4PVMu,0.47,0.221,5,-9.243,0.0371,0.693,0.0,0.104,0.264,133.714,208000,4,Calm
+Bazzi,Young & Alive,Young & Alive,5RsKelNxucrDxgMbZ3vd3W,0.716,0.563,3,-5.486,0.0425,0.326,0.0,0.119,0.495,86.005,160465,4,Calm
+Quinn XCII,From Michigan With Love,Life Must Go On,3vmsnZF4KPLjbDgZEqwTdL,0.715,0.551,10,-6.486,0.096,0.126,0.0,0.314,0.528,90.923,185587,4,Calm
+ayokay,Cassette,Cassette,3GweDldi2HrraUKLexWUeb,0.718,0.56,1,-6.739,0.0564,0.141,0.0,0.148,0.292,75.031,203067,4,Calm
+Oceans Ahead,2 Good,2 Good,0V45nGnVyrEjB6ixCndY4O,0.574,0.446,2,-5.884,0.117,0.653,0.0,0.438,0.355,106.038,163714,4,Calm
+Garrett Nash,we,imagine if,7nDdxPUC5LbxmspeqkOzt8,0.907,0.452,8,-6.673,0.187,0.568,0.0,0.244,0.691,92.063,197216,4,Calm
+Christian French,superstars,superstars,0TqaX16qLpX7YqFcAl9lDy,0.312,0.614,8,-6.073,0.0466,0.0589,0.0,0.0898,0.356,205.379,199848,4,Calm
+Oceans Ahead,Discover,Discover,2kwdw95fOD1MTkwlokYMxc,0.728,0.692,6,-6.93,0.0341,0.32,0.0216,0.0873,0.271,120.052,194785,4,Calm
+ayokay,In the Shape of a Dream,Stay With Me (feat. Jeremy Zucker),65Bynqyt59f3fojjs1Uo41,0.694,0.695,2,-6.612,0.0705,0.489,0.000159,0.131,0.468,100.035,189787,4,Calm
+Quinn XCII,From Michigan With Love,Tough (feat. Noah Kahan),3a1Zmq0P1E6W80x8EOcVNP,0.729,0.571,10,-7.047,0.0551,0.39,0.0,0.111,0.687,93.125,178133,4,Calm
+Kid Quill,The Name Above the Title,A Song to Sing,4Je9DYC9fPdOjF3pfyoKrj,0.745,0.741,2,-7.212,0.184,0.209,0.0,0.51,0.48,94.002,185487,4,Calm
+Quinn XCII,From Michigan With Love,U & Us,6SL7KzIA96f0HiKjuv7tED,0.598,0.73,4,-7.871,0.0423,0.087,0.00268,0.186,0.264,130.039,226000,4,Calm
+Khalid,Free Spirit,Free Spirit,2kAIpGWnlFLQh48iut6Zzq,0.627,0.446,2,-9.477,0.0332,0.308,0.00077,0.111,0.11,139.994,182080,4,Calm
+Louis The Child,Better Not (Acoustic),Better Not - Acoustic,5F7Q8pluSbCWA64Gcg5fOv,0.599,0.48,1,-8.101,0.0344,0.402,9.6e-06,0.0696,0.248,104.148,239961,4,Calm
+Oceans Ahead,Helluvaride,Helluvaride,6jM6PkbUxr2mlEaOROXxEk,0.775,0.644,7,-4.91,0.0263,0.0905,2.02e-06,0.142,0.584,123.969,173288,4,Calm
+Ruel,Free Time,Painkiller,1YlulsUKDduOmC7WxvXYPW,0.683,0.42,5,-6.51,0.0542,0.0875,0.0,0.225,0.469,128.621,213507,4,Calm
+ayokay,In the Shape of a Dream,Queen (feat. Quinn XCII),2lxW8vQ9Qjv0qeSQiIBOKJ,0.781,0.619,7,-6.616,0.0882,0.22,0.0,0.112,0.391,82.954,224707,4,Calm
+Quinn XCII,Stacy (Acoustic),Stacy (Acoustic),51206vFh5RmtMYIzmCzQw2,0.638,0.351,7,-9.15,0.036,0.816,0.0,0.14,0.458,98.166,182187,4,Calm
+Lauv,~how i'm feeling~,Drugs & The Internet,4VM8y5Tx6UBxzfuLvYrhFf,0.454,0.583,2,-6.596,0.133,0.321,1.06e-05,0.332,0.216,89.134,178550,4,Calm
