@@ -1,10 +1,8 @@
 from lyrics_extractor import SongLyrics
 import pandas as pd
+from secrets import *
 
 spotify_df = pd.read_csv('indiv_mood_playlists/sad_mood_2_dataset.csv')
-
-API_KEY = "AIzaSyC89x-y7FqEG4JcEWCU6OCG3IJaDk5yHC0"
-GCS_ENGINE_ID = "d279e9fd8ba7ec0cb"
 
 extract_lyrics = SongLyrics(API_KEY, GCS_ENGINE_ID)
 
