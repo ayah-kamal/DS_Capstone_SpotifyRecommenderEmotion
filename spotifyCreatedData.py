@@ -118,6 +118,27 @@ angry_songs_df1.to_csv(r".\angry_mood_1_dataset.csv", index = False)
 angry_songs_df2.to_csv(r".\angry_mood_1_dataset.csv", index = False)
 '''
 
+# Reading in indivisual mood playlists after lyrics are scraped
+sad_songs_df= pd.read_csv("indiv_mood_playlists/sad_mood_dataset.csv")
+sad_songs_df1= pd.read_csv("indiv_mood_playlists/sad_mood_1_dataset.csv")
+sad_songs_df2= pd.read_csv("indiv_mood_playlists/sad_mood_2_dataset.csv")
+
+happy_songs_df= pd.read_csv("indiv_mood_playlists/happy_mood_dataset.csv")
+happy_songs_df1= pd.read_csv("indiv_mood_playlists/happy_mood_1_dataset.csv")
+happy_songs_df2= pd.read_csv("indiv_mood_playlists/happy_mood_2_dataset.csv")
+
+energy_songs_df= pd.read_csv("indiv_mood_playlists/energy_mood_dataset.csv")
+energy_songs_df1= pd.read_csv("indiv_mood_playlists/energy_mood_1_dataset.csv")
+
+calm_songs_df= pd.read_csv("indiv_mood_playlists/calm_mood_dataset.csv")
+calm_songs_df1= pd.read_csv("indiv_mood_playlists/calm_mood_1_dataset.csv")
+calm_songs_df2= pd.read_csv("indiv_mood_playlists/calm_mood_2_dataset.csv")
+
+angry_songs_df= pd.read_csv("indiv_mood_playlists/angry_mood_dataset.csv")
+angry_songs_df1= pd.read_csv("indiv_mood_playlists/angry_mood_1_dataset.csv")
+angry_songs_df2= pd.read_csv("indiv_mood_playlists/angry_mood_1_dataset.csv")
+
+
 sad_df = pd.concat([sad_songs_df, sad_songs_df1, sad_songs_df2])
 happy_df = pd.concat([happy_songs_df, happy_songs_df1, happy_songs_df2])
 energy_df = pd.concat([energy_songs_df, energy_songs_df1])
@@ -135,4 +156,4 @@ mood_data_df = mood_data.sort_values(by = 'track')
 mood_data_df = mood_data_df.reset_index(drop = True)
 
 mood_data_df.to_csv(r".\spotify_mood_dataset.csv", index = False)
-
+mood_data_df
