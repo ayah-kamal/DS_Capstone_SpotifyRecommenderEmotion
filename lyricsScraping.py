@@ -1,12 +1,10 @@
 from bs4 import BeautifulSoup
 import requests, random, time
-import shadow_useragent
 from random import randrange
 from lyricsgenius import Genius
-from collections import OrderedDict
+from secrets import *
 
 uri = "http://localhost:5000/"
-genius_key = "9rXoiyhZUYHiTC_-KU7_gTP5nb8okqTxL-O2g0HhFBjMS_8sAUkqR1vHexTO8LVe"
 
 from bs4 import BeautifulSoup
 import random
