@@ -3,14 +3,16 @@ import numpy as np
 import matplotlib as plt
 import seaborn as sns
 from sklearn import preprocessing
+from collections import Counter
 import spacy
+import re, string
 
 # Read csv of 50 most recently played songs of user
 user_df = pd.read_csv('song_dataset.csv')
 spotify_df = pd.read_csv('spotify_mood_dataset.csv')
 
 # Remove songs that are added more than once in the same mood playlist
-spotify_df = spotify_df.drop_duplicates(subset=['track', 'mood'], keep='first')
+spotify_df = spotify_df.drop_duplicates(subset=['track','artist','mood'], keep='first').reset_index(drop= True)
 
 spotify_df.columns 
 user_df.columns
@@ -19,19 +21,16 @@ print('Data type of each column of Dataframe :')
 print(spotify_df.dtypes)
 print(user_df.dtypes)
 
-# change lyrics column type to string
-
-
 # rename uri column on user_df and change format to match spotify_df
 user_df.rename(columns={'uri': 'track_id'}, inplace= True)
 user_df['track_id'] = user_df['track_id'].map(lambda x: x.lstrip('spotify:track:'))
 
-mood_count_df = spotify_df.groupby('mood').nunique()
-mood_count_df
-
 # Cleaning the data (for lyrics NLP)
 # remove all rows where lyrics are NaN
-spotify_df.drop(spotify_df.index[spotify_df['lyrics'] == 'nan'], inplace=True)
+spotify_df = spotify_df[spotify_df["lyrics"].notna()]
+
+mood_count_df = spotify_df.groupby('mood').nunique()
+mood_count_df
 
 # Text pre-processing
 # Removing stop words (i.e: I, me, my, oh, yeah etc.)
@@ -39,8 +38,34 @@ spotify_df.drop(spotify_df.index[spotify_df['lyrics'] == 'nan'], inplace=True)
 en = spacy.load('en_core_web_sm')
 sw_spacy = list(en.Defaults.stop_words)
 sw_spacy.extend(['oh', 'yeah', 'my', 'me',])
-sw_spacy.extend(['[Intro]', '[Chorus]', 'my', 'me',])
+
+sw_spacy.extend(['my', 'me',])
 print(sw_spacy)
+
+translator = str.maketrans('', '', string.punctuation)
+
+def split_text(x):
+   text = x['lyrics']
+   sections = text.split('\\n\\n')
+   keys = {'Intro':np.nan, 'Verse 1': np.nan,'Verse 2':np.nan,'Verse 3':np.nan,'Verse 4':np.nan, 'Chorus':np.nan, 'Outro': np.nan}
+   lyrics = str()
+   single_text = []
+   res = {}
+   for s in sections:
+       key = s[s.find('[') + 1:s.find(']')].strip()
+       if ':' in key:
+           key = key[:key.find(':')]
+       if key in keys:
+           single_text += [x.lower().replace('(','').replace(')','').translate(translator) for x in s[s.find(']')+1:].split('\\n') if len(x) > 1]
+       res['single_text'] =  ' \n '.join(single_text)
+   return pd.Series(res)
+
+spotify_df = spotify_df.join( spotify_df.apply(split_text, axis=1))
+
+spotify_df['single_text'].replace('', np.nan, inplace=True)
+spotify_df = spotify_df[spotify_df["single_text"].notna()]
+
+Counter(" ".join(spotify_df["lyrics"]).split()).most_common(100)
 
 # Methods to use:
 ## Topic Modeling
