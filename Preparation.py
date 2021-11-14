@@ -83,7 +83,7 @@ def scale_loudness(df):
 scale_loudness(spotify_df)
 
 spotify_df.head()
-spotify_df.to_csv(r"./processed_spotify_dataset.csv", index = False)
+spotify_df.to_csv(r".\processed dataset\processed_spotify_dataset.csv", index = False)
 
 # Repeat steps for user dataset
 user_df = user_df.join(user_df.apply(split_text, axis=1))
@@ -106,4 +106,4 @@ Counter(" ".join(user_df["single_text"]).split()).most_common(10)
 scale_loudness(user_df)
 
 user_df.head()
-user_df.to_csv(r"./processed_user_dataset.csv", index = False)
+user_df.to_csv(r".\processed dataset\processed_user_dataset.csv", index = False)
