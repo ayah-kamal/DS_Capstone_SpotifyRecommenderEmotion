@@ -4,8 +4,9 @@ import matplotlib as plt
 import seaborn as sns
 from sklearn import preprocessing
 from collections import Counter
-import spacy
-import re, string
+from nltk import word_tokenize
+from nltk.corpus import stopwords
+import string
 
 # Read csv of 50 most recently played songs of user
 user_df = pd.read_csv('song_dataset.csv')
@@ -14,8 +15,8 @@ spotify_df = pd.read_csv('spotify_mood_dataset.csv')
 # Remove songs that are added more than once in the same mood playlist
 spotify_df = spotify_df.drop_duplicates(subset=['track','artist','mood'], keep='first').reset_index(drop= True)
 
-spotify_df.columns 
-user_df.columns
+"""spotify_df.columns 
+user_df.columns"""
 
 print('Data type of each column of Dataframe :')
 print(spotify_df.dtypes)
@@ -33,17 +34,8 @@ mood_count_df = spotify_df.groupby('mood').nunique()
 mood_count_df
 
 # Text pre-processing
-# Removing stop words (i.e: I, me, my, oh, yeah etc.)
-# loading the english language small model of spacy
-en = spacy.load('en_core_web_sm')
-sw_spacy = list(en.Defaults.stop_words)
-sw_spacy.extend(['oh', 'yeah', 'my', 'me',])
-
-sw_spacy.extend(['my', 'me',])
-print(sw_spacy)
-
+# extracting lyrics without headers ([Intro], [Chorus] etc.)
 translator = str.maketrans('', '', string.punctuation)
-
 def split_text(x):
    text = x['lyrics']
    sections = text.split('\\n\\n')
@@ -61,11 +53,21 @@ def split_text(x):
    return pd.Series(res)
 
 spotify_df = spotify_df.join( spotify_df.apply(split_text, axis=1))
-
 spotify_df['single_text'].replace('', np.nan, inplace=True)
-spotify_df = spotify_df[spotify_df["single_text"].notna()]
 
-Counter(" ".join(spotify_df["lyrics"]).split()).most_common(100)
+# Remove rows that where lyrics weren't extracted
+spotify_df = spotify_df[spotify_df["single_text"].notna()].reset_index(drop= True)
+
+# Tokenization 
+spotify_df["single_text"].apply(word_tokenize)
+
+# Removing stop words (i.e: oh, yeah, got etc.)
+en_stopwords = stopwords.words('english')
+en_stopwords.extend(['im', 'got',  'oh', 'yeah',
+"youre", "youve", "youll", "youd", "shes", "thatll", "dont", "shouldve","arent",  "couldnt",  "didnt",  "doesnt",  "hadnt", "hasnt",  "havent", "isnt", "mightnt",  "mustnt", "neednt",  "shant", "shouldnt",  "wasnt",  "werent",  "wont",  "wouldnt"])
+spotify_df["single_text"] = spotify_df["single_text"].apply(lambda x: ' '.join([word for word in x.split() if word not in (en_stopwords)]))
+
+Counter(" ".join(spotify_df["single_text"]).split()).most_common(10)
 
 # Methods to use:
 ## Topic Modeling
@@ -78,10 +80,10 @@ Counter(" ".join(spotify_df["lyrics"]).split()).most_common(100)
 # Normalising the Loudness
 ## All of the audio features are measured between 0 and 1
 ## Except Loudness which is measured between -60 and 0db
-loudness = df[['loudness']].values
+loudness = spotify_df[['loudness']].values
 min_max_scaler = preprocessing.MinMaxScaler()
 loudness_scaled = min_max_scaler.fit_transform(loudness)
-df[['loudness']] = loudness_scaled
+spotify_df[['loudness']] = loudness_scaled
 
 # Audio Feature Analysis
 labels = list(df)[6:16]
@@ -95,6 +97,9 @@ features_df = df[['danceability',
  'liveness',
  'valence',
  'tempo']]
+
+# Visualizing which artists appear most in the dataset for the user
+
 
 # Finding the correlation between all the audio features
 scatter = sns.heatmap(features_df.corr(),  
