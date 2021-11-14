@@ -2,6 +2,12 @@
 # :notes: Spotify Recommendation Playlist Based on the Emotion of Users Most Recently Played Songs - (DSI Capstone Project)
 
 ## Background
+The project aims to recommend songs to a user based on the mood of their most recently played songs on Spotify. There are two datasets that are obtained include:
+- **Spotify Mood Dataset**: contains around 13 playlists from Spotify that are created by Spotify or other Spotify users. These playlists are created by mood. The moods that were obtained and will be observed are: Happy, Sad, Angry, Calm, and Energy. 
+- **User Recently PLayed Dataset**: this dataset is obtained from the user and contains the 50 most recently played songs. To obtain this dataset, the user must give our app authorization. The installation and setting up of this is discuessed [here](#installation)
+
+To determine the mood of the song two variables for each track will be observed. The first is the valence of the track from the Spotify API audio features, the other is the lyrics of the track. These two variables are chosen specifically because choosing one or the other is usually not enough to determine the mood of the song, which can be considered specific to the user. Especially in cases where the lyrics of the song do not match the audio mood (valence) of the track. A popular example of a song like this is [Take a Walk by Passion Pit](https://www.youtube.com/watch?v=dZX6Q-Bj_xg), which is an upbeat happy sounding song that sad lyrics. On the flip side, a popular sad/mellow song that has hopeful/happy lyrics is [Don't Panic by Coldplay](https://www.youtube.com/watch?v=yWeuUwpEQfs)
+
 ### Spotify Audio Features:
 Spotify uses a series of different features to classify tracks.
 - **Acousticness:** A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
@@ -14,3 +20,10 @@ Spotify uses a series of different features to classify tracks.
 - **Valence:** A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
 - **Tempo:** The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, the tempo is the speed or pace of a given piece and derives directly from the average beat duration. [[1]](https://developer.spotify.com/discover/)[[2]](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features)
 
+### Lyrics:
+Lyrics are not available on Spotify, so to obtain the lyrics of the tracks mutliple methods were used. 
+- **Genius API**: Genius.com is one of the most popular and biggest collection of song lyrics and musical knowledge. They provide a [Genius API](https://docs.genius.com/) that makes utilizing their website much easier for developer. Additionally, using the [genius package](https://pypi.org/project/lyricsgenius/) (`lyricsgenius`) created for Python simplifies the process further by providing Python methods for the Genius API.
+- **Web-scraping from Genius**: Similiary, Genius.com is web-scraped using the Python package [BeatifulSoup4](https://pypi.org/project/beautifulsoup4/). Web scraping is used first and if it's unsuccessful we resort to using the genius package, this is because the genius package runs very slowly. 
+- **lyrics-extractor library**: For the Spotify mood playlist dataset, the [lyrics-extractor](https://pypi.org/project/lyrics-extractor/) library for Python is used, as it scrapes from AZLyrics, which is more lenient when it comes to being blocked while scraping. 
+
+## Installation
