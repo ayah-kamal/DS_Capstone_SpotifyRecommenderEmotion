@@ -6,10 +6,6 @@ from secrets import *
 
 uri = "http://localhost:5000/"
 
-from bs4 import BeautifulSoup
-import random
-import requests
-
 USER_AGENT_SCRAPER_BASE_URL = 'http://www.useragentstring.com/pages/useragentstring.php?name='
 
 POPULAR_BROWSERS = ['Chrome', 'Firefox', 'Mozilla', 'Safari', 'Opera', 'Opera Mini', 'Edge', 'Internet Explorer']
