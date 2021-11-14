@@ -1,8 +1,9 @@
 ![alt text](https://djmag.com/sites/default/files/article/image/Header-1280x489%20%281%29_0.png)
 # :notes: Spotify Recommendation Playlist Based on the Emotion of Users Most Recently Played Songs - (DSI Capstone Project)
+This project serves as the final capstone project for the MiSK Data Science immersive program.
 
 ## Background
-The project aims to recommend songs to a user based on the mood of their most recently played songs on Spotify. There are two datasets that are obtained:
+This project aims to recommend songs to a user based on the mood of their most recently played songs on Spotify. There are two datasets that are obtained:
 - **Spotify Mood Dataset**: contains around 13 playlists from Spotify that are created by Spotify or other Spotify users. These playlists are created by mood. The moods that were obtained and will be observed are: Happy, Sad, Angry, Calm, and Energy. 
 - **User Recently Played Dataset**: this dataset is obtained from the user and contains the 50 most recently played songs. To obtain this dataset, the user must give our app authorization. The installation and setting up of this is discussed [here](#usage)
 
