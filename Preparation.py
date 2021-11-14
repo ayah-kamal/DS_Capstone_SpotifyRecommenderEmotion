@@ -9,6 +9,7 @@ import string
 
 # Read csv of 50 most recently played songs of user
 user_df = pd.read_csv('pre-processed dataset\song_dataset.csv')
+# Read csv of spotify mood playlist dataset
 spotify_df = pd.read_csv('pre-processed dataset\spotify_mood_dataset.csv')
 
 # Remove songs that are added more than once in the same mood playlist
@@ -104,4 +105,4 @@ Counter(" ".join(user_df["single_text"]).split()).most_common(10)
 scale_loudness(user_df)
 
 user_df.head()
-spotify_df.to_csv(r"./processed_user_dataset.csv", index = False)
+user_df.to_csv(r"./processed_user_dataset.csv", index = False)
