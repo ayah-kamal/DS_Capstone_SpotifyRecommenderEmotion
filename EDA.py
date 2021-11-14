@@ -10,9 +10,9 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # Preparing Data
 # Read csv of 50 most recently played songs of user
-user_df = pd.read_csv('./processed_user_dataset.csv')
+user_df = pd.read_csv('.\processed dataset\processed_user_dataset.csv')
 # Read csv of spotify mood playlist dataset
-spotify_df = pd.read_csv('./processed_spotify_dataset.csv')
+spotify_df = pd.read_csv('.\processed dataset\processed_spotify_dataset.csv')
 
 frames = [user_df,spotify_df]
 # first 50 rows are the users recently played
@@ -184,4 +184,14 @@ df.groupby(["mood", "sentiment", "v_sentiment"]).size().reset_index(name="count"
 # we will drop TextBlob as use Vader
 df = df.drop(columns= ['sentiment','neg','pos','neu', 'polarity'])
 df.rename(columns={'v_sentiment': 'sentiment', 'compound': 'polarity'}, inplace= True)
+
+'''
+So we will be looking at both the valence of the song as well as its sentiment to recommend the songs to the user.
+Noting that valence is defined by spotify as Valence: A measure from 0.0 to 1.0 describing the musical positiveness 
+conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), 
+while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+
+So, by looking at both the audio feature and sentiment we can better determine the mood of the user's most recently
+listened to songs.
+'''
 
