@@ -21,6 +21,7 @@ user_df.columns"""
 # rename uri column on user_df and change format to match spotify_df
 user_df.rename(columns={'uri': 'track_id'}, inplace= True)
 user_df['track_id'] = user_df['track_id'].map(lambda x: x.lstrip('spotify:track:'))
+spotify_df = spotify_df.drop(columns='time_signature')
 
 # Cleaning the data (for lyrics NLP)
 # remove all rows where lyrics are NaN
