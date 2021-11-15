@@ -181,7 +181,7 @@ etc. which are recognized as negative words.
 # Calm songs, but thats because TextBlob tends to classify most of the songs as calm
 df.groupby(["mood", "sentiment", "v_sentiment"]).size().reset_index(name="count")
 
-# we will drop TextBlob as use Vader
+# we will drop TextBlob and use Vader
 df = df.drop(columns= ['sentiment','neg','pos','neu', 'polarity'])
 df.rename(columns={'v_sentiment': 'sentiment', 'compound': 'polarity'}, inplace= True)
 
