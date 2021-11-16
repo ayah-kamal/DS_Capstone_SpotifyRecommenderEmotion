@@ -77,30 +77,30 @@ If successfully run, it should give you a link to the local host URL.
 ## Research
 
 1. **Spotify API**: 
-        1. spotipy (Python package): [https://spotipy.readthedocs.io/en/2.19.0/#api-reference](https://spotipy.readthedocs.io/en/2.19.0/#api-reference)
-        2. Authorization (OAuth2): [https://developer.spotify.com/documentation/general/guides/authorization/](https://developer.spotify.com/documentation/general/guides/authorization/)
-        3. Client Credentials Flow: [https://developer.spotify.com/documentation/general/guides/authorization/client-credentials/](https://developer.spotify.com/documentation/general/guides/authorization/client-credentials/)
-        4. Video Series for using Spotify API with Flask: [https://www.youtube.com/watch?v=1TYyX8soQ8M&list=LL&index=12](https://www.youtube.com/watch?v=1TYyX8soQ8M&list=LL&index=12)
+- spotipy (Python package): [https://spotipy.readthedocs.io/en/2.19.0/#api-reference](https://spotipy.readthedocs.io/en/2.19.0/#api-reference)
+- Authorization (OAuth2): [https://developer.spotify.com/documentation/general/guides/authorization/](https://developer.spotify.com/documentation/general/guides/authorization/)
+- Client Credentials Flow: [https://developer.spotify.com/documentation/general/guides/authorization/client-credentials/](https://developer.spotify.com/documentation/general/guides/authorization/client-credentials/)
+- Video Series for using Spotify API with Flask: [https://www.youtube.com/watch?v=1TYyX8soQ8M&list=LL&index=12](https://www.youtube.com/watch?v=1TYyX8soQ8M&list=LL&index=12)
         
 2. **Genius API:**
-        1. lyricsgenius (Python package): [https://lyricsgenius.readthedocs.io/en/master/](https://lyricsgenius.readthedocs.io/en/master/)
+- lyricsgenius (Python package): [https://lyricsgenius.readthedocs.io/en/master/](https://lyricsgenius.readthedocs.io/en/master/)
         [https://github.com/johnwmillr/LyricsGenius](https://github.com/johnwmillr/LyricsGenius)
-        2. Lyric Scraping (w/out using API):  [https://medium.com/swlh/how-to-leverage-spotify-api-genius-lyrics-for-data-science-tasks-in-python-c36cdfb55cf3](https://medium.com/swlh/how-to-leverage-spotify-api-genius-lyrics-for-data-science-tasks-in-python-c36cdfb55cf3)
+- Lyric Scraping (w/out using API):  [https://medium.com/swlh/how-to-leverage-spotify-api-genius-lyrics-for-data-science-tasks-in-python-c36cdfb55cf3](https://medium.com/swlh/how-to-leverage-spotify-api-genius-lyrics-for-data-science-tasks-in-python-c36cdfb55cf3)
         
 3. **NLP and Text Pre-Processing:**
-        1. [https://towardsdatascience.com/text-pre-processing-stop-words-removal-using-different-libraries-f20bac19929a](https://towardsdatascience.com/text-pre-processing-stop-words-removal-using-different-libraries-f20bac19929a)
-        2. [https://stackoverflow.com/questions/48433275/remove-stopwords-from-pandas-df-with-user-supplied-list](https://stackoverflow.com/questions/48433275/remove-stopwords-from-pandas-df-with-user-supplied-list)
-        3. [https://neptune.ai/blog/sentiment-analysis-python-textblob-vs-vader-vs-flair](https://neptune.ai/blog/sentiment-analysis-python-textblob-vs-vader-vs-flair)
-        4. [https://yhpf.medium.com/sentiment-analysis-with-textblob-af2da55ccc9](https://yhpf.medium.com/sentiment-analysis-with-textblob-af2da55ccc9)
-        5. [https://cnvrg.io/sentiment-analysis-python/](https://cnvrg.io/sentiment-analysis-python/)
+- [https://towardsdatascience.com/text-pre-processing-stop-words-removal-using-different-libraries-f20bac19929a](https://towardsdatascience.com/text-pre-processing-stop-words-removal-using-different-libraries-f20bac19929a)
+- [https://stackoverflow.com/questions/48433275/remove-stopwords-from-pandas-df-with-user-supplied-list](https://stackoverflow.com/questions/48433275/remove-stopwords-from-pandas-df-with-user-supplied-list)
+- [https://neptune.ai/blog/sentiment-analysis-python-textblob-vs-vader-vs-flair](https://neptune.ai/blog/sentiment-analysis-python-textblob-vs-vader-vs-flair)
+- [https://yhpf.medium.com/sentiment-analysis-with-textblob-af2da55ccc9](https://yhpf.medium.com/sentiment-analysis-with-textblob-af2da55ccc9)
+- [https://cnvrg.io/sentiment-analysis-python/](https://cnvrg.io/sentiment-analysis-python/)
         
 4. **Imputation (User's tracks mood):**
-        1. [https://www.analyticsvidhya.com/blog/2020/07/knnimputer-a-robust-way-to-impute-missing-values-using-scikit-learn/](https://www.analyticsvidhya.com/blog/2020/07/knnimputer-a-robust-way-to-impute-missing-values-using-scikit-learn/)
-        2. [https://towardsdatascience.com/preprocessing-encode-and-knn-impute-all-categorical-features-fast-b05f50b4dfaa](https://towardsdatascience.com/preprocessing-encode-and-knn-impute-all-categorical-features-fast-b05f50b4dfaa)
-        3. [https://medium.com/@kyawsawhtoon/a-guide-to-knn-imputation-95e2dc496e](https://medium.com/@kyawsawhtoon/a-guide-to-knn-imputation-95e2dc496e)
+- [https://www.analyticsvidhya.com/blog/2020/07/knnimputer-a-robust-way-to-impute-missing-values-using-scikit-learn/](https://www.analyticsvidhya.com/blog/2020/07/knnimputer-a-robust-way-to-impute-missing-values-using-scikit-learn/)
+- [https://towardsdatascience.com/preprocessing-encode-and-knn-impute-all-categorical-features-fast-b05f50b4dfaa](https://towardsdatascience.com/preprocessing-encode-and-knn-impute-all-categorical-features-fast-b05f50b4dfaa)
+- [https://medium.com/@kyawsawhtoon/a-guide-to-knn-imputation-95e2dc496e](https://medium.com/@kyawsawhtoon/a-guide-to-knn-imputation-95e2dc496e)
         
 5. **Recommendation Models (Content-based filtering):**
-        1. [https://towardsdatascience.com/the-abc-of-building-a-music-recommender-system-part-i-230e99da9cad](https://towardsdatascience.com/the-abc-of-building-a-music-recommender-system-part-i-230e99da9cad)
-        2. [https://towardsdatascience.com/build-your-first-mood-based-music-recommendation-system-in-python-26a427308d96](https://towardsdatascience.com/build-your-first-mood-based-music-recommendation-system-in-python-26a427308d96)
-        3. [https://github.com/AninditaGuha98/Spotify-Recommendation-System/blob/main/Programming Modules/content_based_recommendation_system.ipynb](https://github.com/AninditaGuha98/Spotify-Recommendation-System/blob/main/Programming%20Modules/content_based_recommendation_system.ipynb)
+- [https://towardsdatascience.com/the-abc-of-building-a-music-recommender-system-part-i-230e99da9cad](https://towardsdatascience.com/the-abc-of-building-a-music-recommender-system-part-i-230e99da9cad)
+- [https://towardsdatascience.com/build-your-first-mood-based-music-recommendation-system-in-python-26a427308d96](https://towardsdatascience.com/build-your-first-mood-based-music-recommendation-system-in-python-26a427308d96)
+- [https://github.com/AninditaGuha98/Spotify-Recommendation-System/blob/main/Programming Modules/content_based_recommendation_system.ipynb](https://github.com/AninditaGuha98/Spotify-Recommendation-System/blob/main/Programming%20Modules/content_based_recommendation_system.ipynb)
  
