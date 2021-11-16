@@ -10,6 +10,9 @@ Table of contents
   - [Lyrics](#lyrics)
 - [Usage](#usage)
  <!--te-->
+ 
+### Features
+NLP, Text Pre-Processing, Recommender Systems, Content-based filtering, Spotify, Imputation, Music, Mood, Emotion, Python, Lyrics, Audio Features, Web scraping, Flask, Vader
 
 ## Background
 This project aims to recommend songs to a user based on the mood of their most recently played songs on Spotify. There are two datasets that are obtained:
