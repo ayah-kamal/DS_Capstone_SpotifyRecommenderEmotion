@@ -10,6 +10,8 @@ Table of contents
   - [Spotify Audio Features](#spotify-audio-features)
   - [Lyrics](#lyrics)
 - [Usage](#usage)
+- [Data](#data)
+- [Research](#research)
  <!--te-->
  
 ## Features
