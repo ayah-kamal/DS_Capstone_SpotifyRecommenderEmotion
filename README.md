@@ -37,3 +37,26 @@ Lyrics are not available on Spotify, so to obtain the lyrics of the tracks mutli
 - **lyrics-extractor library**: For the Spotify mood playlist dataset, the [lyrics-extractor](https://pypi.org/project/lyrics-extractor/) library for Python is used, as it scrapes from AZLyrics, which is more lenient when it comes to being blocked while scraping. 
 
 ## Usage
+### Spotify API:
+To be able to use the Spotify API and access a users information, you will need to register an app and get your own credentials from the Spotify for Developers Dashboard. To do so, go to  [your Spotify for Developers Dashboard](https://beta.developer.spotify.com/dashboard) and create your application. For the examples, we registered these Redirect URIs: http://localhost:5000 
+
+Once you have created your app, replace the `clientID`, `redirect_uri` and `clientSecret` in the secrets.py with the ones you get from My Applications.
+
+### Genius API:
+Similiar to the Spotify API, the Genius API requires you generate your own special key (Client Access Token) to gain access to the API, which we use in the genius package. To get your necessary Genius API keys, you need to navigate to the [Genius API Developers page](https://genius.com/api-clients). The following URL goes into step-by-step detail into how to get your personal API key: https://melaniewalsh.github.io/Intro-Cultural-Analytics/04-Data-Collection/07-Genius-API.html.
+
+Once you've obtained the key, replace it into `genius_key` in the secrets.py file.
+
+### Getting your 50 most recently played songs:
+Now that you have all the necessary credentials, you can obtain your 50 most recently played songs or even any other users 50 most recently played songs (as long as they give you the authorization). Which leads us to the next step, to get authorization from a user a Flask app was created that opens on a local host and asks you to allow authorization as shown below:
+
+![Screenshot (4)](https://user-images.githubusercontent.com/68741119/141888632-b122b253-c799-4d13-9d1f-1a8b96ce728c.png)
+
+It takes a while for the app to run as it is also scraping the lyrics for the songs but after it successfully runs it will display a blank page with a message saying:
+> Recently Played songs for user has been successfully exported to song_dataset.csv
+
+To run the flask app, make sure you are in the same directory as your project folder. Then, from the terminal run the command:
+
+`flask run`
+
+If successfully run, it should give you a link to the local host URL.
