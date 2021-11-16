@@ -2,9 +2,9 @@ from flask import Flask, request, url_for, session, redirect
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import time, os
-from .secrets import *
-from .lyricsScraping import *
-from .dataCollection import *
+from secrets import *
+from data_collection.dataCollection import *
+from data_collection.lyricsScraping import *
 
 TOKEN_INFO = "token_info"
 
