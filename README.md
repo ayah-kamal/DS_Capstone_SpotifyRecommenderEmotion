@@ -1,6 +1,6 @@
 ![alt text](https://djmag.com/sites/default/files/article/image/Header-1280x489%20%281%29_0.png)
 # :notes: Spotify Recommendation Playlist Based on the Emotion of Users Most Recently Played Songs - (DSI Capstone Project)
-This project serves as the final capstone project for the MiSK Data Science immersive program. The final HTML website of the project can be viewed [here](https://ayah-kamal.github.io/DS_Capstone_SpotifyRecommenderEmotion/spotifyRecommend.html)
+This project serves as the final capstone project for the MiSK Data Science immersive program. The final HTML website of the project can be viewed [here](https://ayah-kamal.github.io/DS_Capstone_SpotifyRecommenderEmotion/spotifyRecommend.html).
 
 ## Background
 This project aims to recommend songs to a user based on the mood of their most recently played songs on Spotify. There are two datasets that are obtained:
