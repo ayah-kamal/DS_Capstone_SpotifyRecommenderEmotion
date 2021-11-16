@@ -1,4 +1,6 @@
 ![alt text](https://djmag.com/sites/default/files/article/image/Header-1280x489%20%281%29_0.png)
+![last_commit](https://img.shields.io/github/last-commit/ayah-kamal/DS_Capstone_SpotifyRecommenderEmotion) ![commits](https://img.shields.io/github/commit-activity/w/ayah-kamal/DS_Capstone_SpotifyRecommenderEmotion) ![size](https://img.shields.io/github/repo-size/ayah-kamal/DS_Capstone_SpotifyRecommenderEmotion)
+
 # :notes: Spotify Recommendation Playlist Based on the Emotion of Users Most Recently Played Songs - (DSI Capstone Project)
 This project serves as the final capstone project for the MiSK Data Science immersive program. The final HTML website of the project can be viewed [here](https://ayah-kamal.github.io/DS_Capstone_SpotifyRecommenderEmotion/spotifyRecommend.html).
 
