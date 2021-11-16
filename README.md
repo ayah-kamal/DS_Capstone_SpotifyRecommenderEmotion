@@ -56,7 +56,7 @@ It takes a while for the app to run as it is also scraping the lyrics for the so
 > Recently Played songs for user has been successfully exported to song_dataset.csv
 
 To run the flask app, make sure you are in the same directory as your project folder. Then, from the terminal run the command:
-
-`flask run`
-
+```
+flask run
+```
 If successfully run, it should give you a link to the local host URL.
